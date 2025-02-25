@@ -1,0 +1,15 @@
+{
+    "name": "Runaway Tracking Extension",
+    "description": "Base Level Extension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["storage", "alarms", "notifications"],
+    "host_permissions": ["https://opendata.adsb.fi/*"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "animated airport runway.png"
+    },
+    "background": {
+      "service_worker": "service-worker.js"
+    }
+  }

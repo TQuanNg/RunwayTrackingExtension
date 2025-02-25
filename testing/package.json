@@ -1,0 +1,19 @@
+{
+  "name": "chrome-extension",
+  "version": "1.0.0",
+  "main": "popup.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-fetch-mock": "^3.0.3"
+  },
+  "jest": {
+    "setupFiles": ["./jest.setup.js"]
+  }
+}
